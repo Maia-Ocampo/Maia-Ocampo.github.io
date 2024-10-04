@@ -34,6 +34,21 @@ a {
 	 text-decoration: none;
 }
 
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+
+
+	margin-left: auto;
+  	margin-right: auto;
+
+	display: flex;
+	justify-content:center;
+
+  }
+
 a:hover {
 	 font-family: "Signika Negative", sans-serif;
 	 font-size: 40px;
