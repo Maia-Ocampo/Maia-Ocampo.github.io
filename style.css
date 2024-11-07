@@ -21,16 +21,40 @@ h2 {
 h3 {
 	font-family: "Signika Negative", sans-serif;
 	font-size: 17px;
+	
+	line-height: 1.5;
 
 	padding-left: 10%;
+	padding-right: 10%;
 	color:white;
+
 }
 
 h4 {
 	font-family: "Signika Negative", sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	color:white;
+
+	justify-content:center;
+	text-align: center;
+
+	word-spacing: 10px;
 }
+
+
+h5 {
+	font-family: "Signika Negative", sans-serif;
+	font-size: 50px;
+	color:white;
+	text-decoration: underline;
+	justify-content:center;
+	text-align: center;
+
+	
+}
+
+
+
 
 
 a {
@@ -38,6 +62,11 @@ a {
 	 font-size: 30px;
 	 color:white;
 
+	 justify-content:center;
+	text-align: center;
+	
+
+	line-height: 40px;
 	 text-decoration: none;
 }
 
@@ -50,12 +79,18 @@ a:hover {
 	 color: #8F391D;
 }
 
+a2:hover {
+	font-family: "Signika Negative", sans-serif;
+	font-size: 30px;
+
+	color: #8F391D;
+}
+
 
 
 ul li {
 	list-style-type: none;
-
-	margin: 15px;
+	margin: 20px;
 }
 
 
@@ -79,12 +114,25 @@ ul li {
 
 }
 
+.subHeader {
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	
+	
+
+}
+
+
+
 .contentsTable {
 	background-color: none;
-	padding-top:30px;
-	padding-bottom:50px;
+	padding-top:20px;
+	padding-bottom:140px;
 	
 	text-align: center;
+
+
 	
 
 }
@@ -105,17 +153,7 @@ ul li {
 	background-color: none;
 	padding-top:30px;
 	padding-bottom:50px;
-
-	
-
 	display: flex;
 
 }
 
-.about {
-	background-color: none;
-	padding-top:10px;
-
-	display: flex;
-
-}
