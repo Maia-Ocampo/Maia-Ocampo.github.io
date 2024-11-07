@@ -19,47 +19,27 @@ h1 {
 /**body**/
 h2 {
 	font-family: "Signika Negative", sans-serif;
-	font-size: 25px;
+	font-size: 17px;
 	color:white;
-
-	padding-left: 2%;
 
 	font-weight:bold;
 }
-
 
 h3 {
 	font-family: "Signika Negative", sans-serif;
 	font-size: 17px;
 	color:white;
 
-	padding-left: 8%;
-
-	font-weight:400;
+	font-weight:bold;
 }
 
 
 a {
 	 font-family: "Signika Negative", sans-serif;
-	 font-size: 50px;
+	 font-size: 30px;
 	 color:white;
 
 	 text-decoration: none;
-}
-
-a:hover {
-	 font-family: "Signika Negative", sans-serif;
-	 font-size: 50px;
-
-	 color: #8F391D;
-}
-
-
-
-ul li {
-	list-style-type: none;
-
-	margin: 15px;
 }
 
 img {
@@ -77,6 +57,21 @@ img {
 
   }
 
+a:hover {
+	 font-family: "Signika Negative", sans-serif;
+	 font-size: 40px;
+
+	 color: #8F391D;
+}
+
+
+
+ul li {
+	list-style-type: none;
+
+	margin: 15px;
+}
+
 .titleContainer {
 	border-radius: 25px;
 
@@ -92,19 +87,22 @@ img {
 
 }
 
-
-
-.textHeading {
-
+.contentsTable {
 	background-color: none;
+	padding-top:30px;
+	padding-bottom:50px;
+	padding-right: 3%;
+	text-align: center;
 	
-	display: flex;
 
 }
 
 .body {
 	background-color: none;
-	padding-bottom:10px;
+	padding-top:30px;
+	padding-bottom:50px;
+
+	
 
 	display: flex;
 
