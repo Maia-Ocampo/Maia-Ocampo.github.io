@@ -19,6 +19,14 @@ h1 {
 /**body**/
 h2 {
 	font-family: "Signika Negative", sans-serif;
+	font-size: 25px;
+	color:white;
+
+	font-weight:bold;
+}
+
+h3 {
+	font-family: "Signika Negative", sans-serif;
 	font-size: 17px;
 	color:white;
 
@@ -28,7 +36,7 @@ h2 {
 
 a {
 	 font-family: "Signika Negative", sans-serif;
-	 font-size: 30px;
+	 font-size: 40px;
 	 color:white;
 
 	 text-decoration: none;
@@ -97,6 +105,5 @@ ul li {
 	
 
 	display: flex;
-	justify-content:center;
 
 }
