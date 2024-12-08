@@ -124,6 +124,18 @@ h4 {
 
 }
 
+.contact {
+	border-radius: 25px;
+	padding:25px;
+
+	background-color: #BD4D24;
+	
+	display: flex;
+	justify-content:center;
+	text-align: center;
+
+}
+
 .body {
 	justify-content:center;
 	background-color: none;
