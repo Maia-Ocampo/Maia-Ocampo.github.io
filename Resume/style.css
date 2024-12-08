@@ -83,6 +83,7 @@ ul li {
 	margin: 15px;
 }
 
+
 h4 {
     font-family: "Signika Negative", sans-serif;
     font-size: 30px;
@@ -112,6 +113,12 @@ h4 {
 
 
 }
+
+.textHeading {
+    padding-top: 20px;
+
+}
+
 
 
 .contentsTable {
