@@ -89,8 +89,6 @@ h4 {
     justify-content:center;
     text-align: center;
     
-    
-    
     height: 400px;
     
     border-radius: 25px;
@@ -113,13 +111,9 @@ h4 {
 
 }
 
-.body {
-	background-color: none;
-	padding-top:30px;
-	padding-bottom:50px;
-
-	
-
-	display: flex;
+.textHeading {
+	padding-top: 20px;
 
 }
+
+
