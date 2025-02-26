@@ -24,6 +24,14 @@ h2 {
 
 h3 {
 	font-family: "Signika Negative", sans-serif;
+	font-size: 40px;
+  	font-style: normal;
+  	color: #50595E;
+}
+
+
+h5 {
+	font-family: "Signika Negative", sans-serif;
 	font-size: 17px;
 	color:black;
 
