@@ -1,72 +1,83 @@
 body {
-	background-color: #F7F7EE;
+    background-color: #F7F7EE;
 
 
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
 h1 {
-	font-family: "Signika Negative", sans-serif;
-	 font-size: 75px;
-	 color:white;
+    font-family: "Signika Negative", sans-serif;
+     font-size: 75px;
+     color:white;
 }
 
 /**body**/
 h2 {
-	font-family: "Signika Negative", sans-serif;
-	font-size: 25px;
-	color:white;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 25px;
+    color:white;
 
-	font-weight:bold;
+    font-weight:bold;
 }
 
-h3 {
-	font-family: "Signika Negative", sans-serif;
-	font-size: 17px;
-	color:black;
 
-	font-weight:bold;
+
+h3 {
+
+    font-family: "Signika Negative", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    color: #50595E;
+
+}
+
+h5 {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 17px;
+    color:black;
+
+    font-weight:bold;
 }
 
 
 
 
 a {
-	font-family: "Signika Negative", sans-serif;
-	font-size: 30px;
-	color: #191A0F;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 30px;
+    color: #191A0F;
 
-	justify-content:center;
+    justify-content:center;
    text-align: center;
    
 
    line-height: 40px;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 
 
 a:hover {
-	font-family: "Signika Negative", sans-serif;
-	font-size: 30px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 30px;
 
-	color: #CCCCCC;
+    color: #CCCCCC;
 }
 
 img {
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 5px;
-	width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 
 
-	margin-left: auto;
-  	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
-	display: flex;
-	justify-content:center;
+    display: flex;
+    justify-content:center;
 
   }
 
@@ -74,9 +85,9 @@ img {
 
 
 ul li {
-	list-style-type: none;
+    list-style-type: none;
 
-	margin: 15px;
+    margin: 15px;
 }
 h4 {
     font-family: "Signika Negative", sans-serif;
@@ -90,49 +101,61 @@ h4 {
 }
 
 
-.titleContainer {
-	
-	display: flex;
-	justify-content:center;
-	text-align: center;
-	
-	border-radius: 10px;
 
 
-	background-color: #191A0F;
-	/**padding-top:40px;**/
+h3 {
 
+    font-family: "Signika Negative", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    color: #50595E;
 
 }
 
 .contentsTable {
-	background-color: none;
-	padding-top:30px;
-	padding-bottom:50px;
-	padding-right: 3%;
-	text-align: center;
-	
+    background-color: none;
+    padding-top:30px;
+    padding-bottom:50px;
+    padding-right: 3%;
+    text-align: center;
+    
+
+}
+
+.titleContainer{
+    background-color: #191A0F;
+    text-align: center;
+    padding: 10pt;
+    padding-top: 10pt;
+    border-radius: 10px;
+    line-height: 30px;
+    /*
+    max-width: fit-content;
+    margin-inline: auto; */
+
+    padding: 10pt;
+    padding-top: 5%;
 
 }
 
 .contact {
-	border-radius: 10px;
-	padding:25px;
+    border-radius: 10px;
+    padding:25px;
 
-	background-color: #191A0F;
-	
-	display: flex;
-	justify-content:center;
-	text-align: center;
+    background-color: #191A0F;
+    
+    display: flex;
+    justify-content:center;
+    text-align: center;
 
 }
 
 .body {
-	background-color: none;
-	padding-top:30px;
-	padding-bottom:50px;
+    background-color: none;
+    padding-top:30px;
+    padding-bottom:50px;
 
-	display: flex;
-	justify-content:center;
+    display: flex;
+    justify-content:center;
 
 }
