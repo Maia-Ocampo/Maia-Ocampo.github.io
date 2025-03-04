@@ -110,14 +110,32 @@ h4 {
 
 
 .contentsTable {
-	background-color: none;
-	padding-top:30px;
-	padding-bottom:50px;
-	padding-right: 3%;
+	
+
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	column-gap: 20px; 
+
+	place-items: center;
+
 	text-align: center;
+	
+	padding-bottom:50px;
+
+	padding-left: 2%;
+	
+
+	
 	
 
 }
+
+.box1, .box2{
+	margin: auto;
+}
+
+
+
 
 .contact {
 	border-radius: 10px;
